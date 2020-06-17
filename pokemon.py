@@ -158,15 +158,15 @@ trainer1 = Trainer([pokemon1, pokemon2, pokemon3], 3, "Trainer1")
 trainer2 = Trainer([pokemon4, pokemon5, pokemon6], 5, "Trainer2")
 # print(trainer2)
 
-# pokemon1.attack(pokemon2)
+pokemon1.attack(pokemon2)
 # pokemon1.attack(pokemon3)
 # pokemon3.attack(pokemon1)
 
 # trainer2.attack_other_trainer(trainer1)
 # trainer1.attack_other_trainer(trainer2)
 
-trainer1.use_potion()
+# trainer1.use_potion()
 # trainer2.use_potion()
 
-trainer1.switch_active_pokemon(2)
+# trainer1.switch_active_pokemon(2)
 # trainer2.switch_active_pokemon(1)
